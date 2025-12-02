@@ -1,4 +1,4 @@
-WEATHER JSON FILES EXPLAINED
+JSON FILES EXPLAINED
 ============================
 
 This folder has sample JSON files from the National Weather Service and Storm Prediction Center.
@@ -167,10 +167,96 @@ Breaks down like:
 
 WHERE THIS DATA COMES FROM
 --------------------------
-SPC stuff (outlooks, watches, MDs):
-  https://www.spc.noaa.gov/products/outlook/
-  https://www.spc.noaa.gov/products/watch/
-  https://www.spc.noaa.gov/products/md/
+These are sample files showing what the real data looks like. Here are the actual
+live endpoints to get current data:
 
-NWS warnings:
-  https://api.weather.gov/alerts
+
+CONVECTIVE OUTLOOK ENDPOINTS (GeoJSON)
+--------------------------------------
+Day 1 Categorical:
+  https://www.spc.noaa.gov/products/outlook/day1otlk_cat.lyr.geojson
+
+Day 1 Tornado Probability:
+  https://www.spc.noaa.gov/products/outlook/day1otlk_torn.lyr.geojson
+
+Day 1 Wind Probability:
+  https://www.spc.noaa.gov/products/outlook/day1otlk_wind.lyr.geojson
+
+Day 1 Hail Probability:
+  https://www.spc.noaa.gov/products/outlook/day1otlk_hail.lyr.geojson
+
+Day 2 Categorical:
+  https://www.spc.noaa.gov/products/outlook/day2otlk_cat.lyr.geojson
+
+Day 2 Tornado Probability:
+  https://www.spc.noaa.gov/products/outlook/day2otlk_torn.lyr.geojson
+
+Day 3 Categorical:
+  https://www.spc.noaa.gov/products/outlook/day3otlk_cat.lyr.geojson
+
+Days 4-8 Probability:
+  https://www.spc.noaa.gov/products/exper/day4-8/day48prob.lyr.geojson
+
+
+MESOSCALE DISCUSSION ENDPOINTS
+------------------------------
+All Active MDs (GeoJSON):
+  https://www.spc.noaa.gov/products/md/md.lyr.geojson
+
+Individual MD (replace XXXX with number):
+  https://www.spc.noaa.gov/products/md/mdXXXX.html (web page)
+
+RSS Feed for new MDs:
+  https://www.spc.noaa.gov/products/spcmdrss.xml
+
+
+WATCH ENDPOINTS
+---------------
+All Active Watches (GeoJSON):
+  https://www.spc.noaa.gov/products/watch/ww.lyr.geojson
+
+Active Watch Summary:
+  https://www.spc.noaa.gov/products/watch/
+
+Individual Watch (replace XXXX with number):
+  https://www.spc.noaa.gov/products/watch/wwXXXX.html
+
+Watch Outline (KML - for mapping):
+  https://www.spc.noaa.gov/products/watch/wwXXXX_outline.kml
+
+Watch Status Reports:
+  https://www.spc.noaa.gov/products/watch/wstatus.html
+
+
+NWS ALERTS API (WARNINGS)
+-------------------------
+All Active Alerts:
+  https://api.weather.gov/alerts/active
+
+Active Tornado Warnings:
+  https://api.weather.gov/alerts/active?event=Tornado%20Warning
+
+Active Severe Thunderstorm Warnings:
+  https://api.weather.gov/alerts/active?event=Severe%20Thunderstorm%20Warning
+
+Alerts by State (replace XX with state code like TX, OK, KS):
+  https://api.weather.gov/alerts/active?area=XX
+
+Alerts by Zone:
+  https://api.weather.gov/alerts/active?zone=OKC035
+
+Alerts by Point (lat,lon):
+  https://api.weather.gov/alerts/active?point=35.2,-97.4
+
+Single Alert by ID:
+  https://api.weather.gov/alerts/{id}
+
+
+NOTES ON FETCHING DATA
+----------------------
+- SPC GeoJSON endpoints return standard GeoJSON FeatureCollections
+- NWS API returns GeoJSON with extra metadata in the "properties" object
+- NWS API requires a User-Agent header (use your app name and contact email)
+- All times are in UTC (Zulu time) unless otherwise noted
+- SPC updates outlooks at specific times: 0600Z, 1300Z, 1630Z, 2000Z, 0100Z
+- Watches/warnings update in real-time as conditions change

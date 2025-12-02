@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-99.25, 37.65], [-98.12, 38.15], [-96.85, 37.92], [-96.32, 37.25],
+          [-97.18, 36.78], [-98.45, 37.02], [-99.25, 37.65]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505201930",
+        "EXPIRE": "202505202130",
+        "PROD": "MD",
+        "NUM": "0893",
+        "CONCERNING": "Severe potential...Watch unlikely",
+        "WATCH_PROB": 20,
+        "WATCH_TYPE": null,
+        "DISCUSSION": "Scattered strong to marginally severe storms are developing along an outflow boundary across south-central Kansas. While some hail to 1 inch and wind gusts to 60 mph are possible, the overall threat appears too limited and disorganized to warrant watch issuance at this time.",
+        "ATTN_WFOS": ["ICT", "TOP", "DDC"],
+        "LAT_LON": "3765 9925 3815 9812 3792 9685 3725 9632 3678 9718 3702 9845"
+      }
+    }
+  ]
+}

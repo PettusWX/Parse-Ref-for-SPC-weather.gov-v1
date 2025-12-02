@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-98.58, 36.08], [-96.92, 36.55], [-95.42, 36.02], [-95.72, 33.92],
+          [-96.92, 33.15], [-98.25, 33.72], [-98.85, 35.02], [-98.58, 36.08]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505202000",
+        "EXPIRE": "202505210400",
+        "PROD": "WW",
+        "NUM": "0237",
+        "TYPE": "TOR",
+        "PDS": true,
+        "MAX_HAIL": "4.00",
+        "MAX_WIND": 80,
+        "STATES": ["OK", "TX"],
+        "WATCH_COUNTIES": 35,
+        "TORNADO_PROB": "HIGH",
+        "EF2_PROB": "HIGH",
+        "HAIL_PROB": "HIGH",
+        "WIND_PROB": "HIGH",
+        "DISCUSSION": "THIS IS A PARTICULARLY DANGEROUS SITUATION. Numerous tornadoes expected with several intense to violent tornadoes likely. Widespread very large hail likely with isolated giant hail events to 4 inches. Widespread damaging winds likely with isolated significant gusts to 80 mph. This is a dangerous situation.",
+        "ATTN_WFOS": ["OUN", "TSA", "FWD"]
+      }
+    }
+  ]
+}

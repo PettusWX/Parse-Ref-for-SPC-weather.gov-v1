@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b4e9d2a1c6f8e3b5a0d7c9e2f4b8a1d6c3e9f7a.002.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-97.22, 37.78], [-96.95, 37.88], [-96.68, 37.82],
+          [-96.62, 37.58], [-96.85, 37.48], [-97.15, 37.55], [-97.22, 37.78]
+        ]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b4e9d2a1c6f8e3b5a0d7c9e2f4b8a1d6c3e9f7a.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.7b4e9d2a1c6f8e3b5a0d7c9e2f4b8a1d6c3e9f7a.002.1",
+        "areaDesc": "Sedgwick, KS; Butler, KS",
+        "geocode": {
+          "SAME": ["020173", "020015"],
+          "UGC": ["KSC173", "KSC015"]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/KSC173",
+          "https://api.weather.gov/zones/county/KSC015"
+        ],
+        "references": [],
+        "sent": "2025-05-20T21:45:00+00:00",
+        "effective": "2025-05-20T21:45:00+00:00",
+        "onset": "2025-05-20T21:45:00+00:00",
+        "expires": "2025-05-20T22:30:00+00:00",
+        "ends": "2025-05-20T22:30:00+00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Severe Thunderstorm Warning issued May 20 at 4:45 PM CDT until May 20 at 5:30 PM CDT by NWS Wichita KS",
+        "description": "At 445 PM CDT, a severe thunderstorm was located over Andover,\nmoving east-northeast at 45 mph.\n\nHAZARD...Two inch hail and 70 mph wind gusts.\n\nSOURCE...Trained weather spotters reported 2 inch hail.\n\nIMPACT...People and animals outdoors will be injured. Expect damage\n         to roofs, siding, windows, and vehicles.\n\nThis severe thunderstorm will be near...\n  Andover around 450 PM CDT.\n  Augusta around 500 PM CDT.\n  El Dorado around 515 PM CDT.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a building. Large hail and damaging winds and continuous cloud to ground lightning is occurring with this storm.",
+        "response": "Shelter",
+        "parameters": {
+          "AWIPSidentifier": ["SVRICT"],
+          "WMOidentifier": ["WUUS54 KICT 202145"],
+          "NWSheadline": ["SEVERE THUNDERSTORM WARNING"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "VTEC": ["/O.NEW.KICT.SV.W.0089.250520T2145Z-250520T2230Z/"],
+          "eventEndingTime": ["2025-05-20T22:30:00+00:00"],
+          "maxWindGust": ["70 MPH"],
+          "maxHailSize": ["2.00"],
+          "hailThreat": ["RADAR INDICATED"],
+          "windThreat": ["OBSERVED"],
+          "tornadoDetection": ["POSSIBLE"],
+          "thunderstormDamageThreat": ["CONSIDERABLE"]
+        }
+      }
+    }
+  ]
+}

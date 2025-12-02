@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.58, 36.45], [-95.72, 36.82], [-94.45, 36.58], [-93.92, 35.72],
+          [-94.38, 35.12], [-95.72, 35.25], [-96.32, 35.78], [-96.58, 36.45]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505202015",
+        "EXPIRE": "202505202215",
+        "PROD": "MD",
+        "NUM": "0894",
+        "CONCERNING": "Tornado Watch 235",
+        "WATCH_PROB": null,
+        "WATCH_TYPE": null,
+        "DISCUSSION": "A particularly dangerous situation continues across northeast Oklahoma and northwest Arkansas within Tornado Watch 235. A confirmed large and violent tornado is ongoing near Tulsa and tracking northeast. Additional supercells are developing along the dryline with strong rotation noted. Multiple tornadoes are expected through early evening. This is a life-threatening situation.",
+        "ATTN_WFOS": ["TSA", "SGF", "LZK"],
+        "LAT_LON": "3645 9658 3682 9572 3658 9445 3572 9392 3512 9438 3525 9572 3578 9632"
+      }
+    }
+  ]
+}

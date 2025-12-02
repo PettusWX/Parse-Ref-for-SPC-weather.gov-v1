@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[
+          [-100.85, 32.45], [-99.12, 34.25], [-96.78, 36.12], [-94.25, 37.08],
+          [-91.52, 36.85], [-90.25, 35.12], [-91.45, 33.25], [-94.78, 31.85],
+          [-98.12, 31.52], [-100.85, 32.45]
+        ]]]
+      },
+      "properties": {
+        "DN": 2,
+        "VALID": "202505220100",
+        "EXPIRE": "202505221200",
+        "ISSUE": "202505210600",
+        "LABEL": "TSTM",
+        "LABEL2": "General Thunder",
+        "stroke": "#C0E8C0",
+        "fill": "#C0E8C0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[
+          [-98.52, 33.45], [-97.25, 34.85], [-95.45, 35.78], [-93.78, 35.52],
+          [-93.12, 34.25], [-94.45, 32.85], [-96.85, 32.45], [-98.52, 33.45]
+        ]]]
+      },
+      "properties": {
+        "DN": 3,
+        "VALID": "202505220100",
+        "EXPIRE": "202505221200",
+        "ISSUE": "202505210600",
+        "LABEL": "MRGL",
+        "LABEL2": "Marginal",
+        "stroke": "#66A366",
+        "fill": "#66A366"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[
+          [-97.12, 33.85], [-96.25, 34.78], [-94.85, 35.12], [-94.12, 34.45],
+          [-94.52, 33.52], [-95.85, 33.08], [-97.12, 33.85]
+        ]]]
+      },
+      "properties": {
+        "DN": 4,
+        "VALID": "202505220100",
+        "EXPIRE": "202505221200",
+        "ISSUE": "202505210600",
+        "LABEL": "SLGT",
+        "LABEL2": "Slight",
+        "stroke": "#FFE066",
+        "fill": "#FFE066"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-98.62, 38.15], [-97.25, 39.08], [-95.42, 39.25], [-94.12, 38.72],
+          [-94.45, 37.45], [-96.08, 37.12], [-97.85, 37.52], [-98.62, 38.15]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505202100",
+        "EXPIRE": "202505210400",
+        "PROD": "WW",
+        "NUM": "0236",
+        "TYPE": "SVR",
+        "MAX_HAIL": "2.50",
+        "MAX_WIND": 75,
+        "STATES": ["KS", "MO"],
+        "WATCH_COUNTIES": 32,
+        "TORNADO_PROB": "LOW",
+        "HAIL_PROB": "HIGH",
+        "WIND_PROB": "HIGH",
+        "DISCUSSION": "A cluster of supercells is expected to develop along a warm front across central Kansas and track east-northeast into western Missouri. Very large hail to 2.5 inches and damaging winds to 75 mph are expected. A few tornadoes are also possible, especially along the warm front.",
+        "ATTN_WFOS": ["ICT", "TOP", "EAX"]
+      }
+    }
+  ]
+}

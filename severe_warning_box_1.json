@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a3f2c1b9e4d7a6f5c8b2e1d0a9f7c4b3e6d8a2f.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-97.52, 35.42], [-97.35, 35.52], [-97.18, 35.48],
+          [-97.15, 35.32], [-97.28, 35.22], [-97.48, 35.28], [-97.52, 35.42]
+        ]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a3f2c1b9e4d7a6f5c8b2e1d0a9f7c4b3e6d8a2f.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.8a3f2c1b9e4d7a6f5c8b2e1d0a9f7c4b3e6d8a2f.001.1",
+        "areaDesc": "Cleveland, OK; Oklahoma, OK",
+        "geocode": {
+          "SAME": ["040027", "040109"],
+          "UGC": ["OKC027", "OKC109"]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/OKC027",
+          "https://api.weather.gov/zones/county/OKC109"
+        ],
+        "references": [],
+        "sent": "2025-05-20T19:32:00+00:00",
+        "effective": "2025-05-20T19:32:00+00:00",
+        "onset": "2025-05-20T19:32:00+00:00",
+        "expires": "2025-05-20T20:15:00+00:00",
+        "ends": "2025-05-20T20:15:00+00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Severe Thunderstorm Warning issued May 20 at 2:32 PM CDT until May 20 at 3:15 PM CDT by NWS Norman OK",
+        "description": "At 232 PM CDT, a severe thunderstorm was located near Moore, moving\nnortheast at 35 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\n         roofs, siding, and trees.\n\nLocations impacted include...\nMoore, Norman, Oklahoma City, Midwest City, Del City, and Newcastle.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a building.",
+        "response": "Shelter",
+        "parameters": {
+          "AWIPSidentifier": ["SVROUN"],
+          "WMOidentifier": ["WUUS54 KOUN 201932"],
+          "NWSheadline": ["SEVERE THUNDERSTORM WARNING"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "VTEC": ["/O.NEW.KOUN.SV.W.0142.250520T1932Z-250520T2015Z/"],
+          "eventEndingTime": ["2025-05-20T20:15:00+00:00"],
+          "maxWindGust": ["60 MPH"],
+          "maxHailSize": ["1.00"],
+          "tornadoDetection": ["POSSIBLE"],
+          "thunderstormDamageThreat": ["EXPECTED"]
+        }
+      }
+    }
+  ]
+}

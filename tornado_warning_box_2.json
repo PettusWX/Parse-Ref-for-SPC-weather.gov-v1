@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e2c5f8a1b4d7e0c3f6a9d2b5e8c1a4f7d0b3e6c.005.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.12, 36.22], [-95.88, 36.35], [-95.58, 36.28],
+          [-95.45, 36.02], [-95.68, 35.88], [-96.02, 35.98], [-96.12, 36.22]
+        ]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9e2c5f8a1b4d7e0c3f6a9d2b5e8c1a4f7d0b3e6c.005.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.9e2c5f8a1b4d7e0c3f6a9d2b5e8c1a4f7d0b3e6c.005.1",
+        "areaDesc": "Tulsa, OK; Rogers, OK; Wagoner, OK",
+        "geocode": {
+          "SAME": ["040143", "040131", "040145"],
+          "UGC": ["OKC143", "OKC131", "OKC145"]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/OKC143",
+          "https://api.weather.gov/zones/county/OKC131",
+          "https://api.weather.gov/zones/county/OKC145"
+        ],
+        "references": [],
+        "sent": "2025-05-20T20:42:00+00:00",
+        "effective": "2025-05-20T20:42:00+00:00",
+        "onset": "2025-05-20T20:42:00+00:00",
+        "expires": "2025-05-20T21:15:00+00:00",
+        "ends": "2025-05-20T21:15:00+00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Tornado Warning issued May 20 at 3:42 PM CDT until May 20 at 4:15 PM CDT by NWS Tulsa OK",
+        "description": "TORNADO EMERGENCY for the City of Tulsa.\n\nAt 342 PM CDT, a CONFIRMED LARGE AND EXTREMELY DANGEROUS TORNADO was\nlocated over midtown Tulsa, moving northeast at 35 mph.\n\nTHIS IS A TORNADO EMERGENCY FOR TULSA. TAKE COVER NOW!\n\nHAZARD...Deadly tornado.\n\nSOURCE...Weather spotters confirmed tornado. Radar confirmed tornado\n         debris signature.\n\nIMPACT...You are in a life-threatening situation. Flying debris may\n         be deadly to those caught without shelter. Mobile homes\n         will be destroyed. Considerable damage to homes, businesses,\n         and vehicles is likely and complete destruction is possible.\n\nThis tornado will be near...\n  Downtown Tulsa around 345 PM CDT.\n  Catoosa around 400 PM CDT.\n  Claremore around 415 PM CDT.",
+        "instruction": "To repeat, a LARGE, EXTREMELY DANGEROUS, AND POTENTIALLY DEADLY tornado is on the ground. To protect your life, TAKE COVER NOW! Move to an interior room on the lowest floor of a sturdy building. Avoid windows. If in a mobile home, a vehicle, or outdoors, move to the closest substantial shelter.",
+        "response": "Shelter",
+        "parameters": {
+          "AWIPSidentifier": ["TORTSA"],
+          "WMOidentifier": ["WFUS54 KTSA 202042"],
+          "NWSheadline": ["TORNADO EMERGENCY"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "VTEC": ["/O.NEW.KTSA.TO.W.0032.250520T2042Z-250520T2115Z/"],
+          "eventEndingTime": ["2025-05-20T21:15:00+00:00"],
+          "tornadoDetection": ["OBSERVED"],
+          "tornadoDamageThreat": ["CATASTROPHIC"],
+          "maxHailSize": ["2.75"],
+          "motionVector": ["225DEG 30KT"],
+          "tornadoEmergency": ["TRUE"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-96.85, 36.82], [-95.42, 37.35], [-94.12, 37.02], [-93.92, 35.72],
+          [-94.72, 35.15], [-96.15, 35.45], [-96.85, 36.82]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505201800",
+        "EXPIRE": "202505210200",
+        "PROD": "WW",
+        "NUM": "0235",
+        "TYPE": "TOR",
+        "MAX_HAIL": "2.50",
+        "MAX_WIND": 70,
+        "STATES": ["OK", "KS", "MO"],
+        "WATCH_COUNTIES": 28,
+        "TORNADO_PROB": "MODERATE",
+        "EF2_PROB": "MODERATE",
+        "HAIL_PROB": "HIGH",
+        "WIND_PROB": "MODERATE",
+        "DISCUSSION": "Several tornadoes are likely with a few intense tornadoes possible. Scattered large hail likely with isolated very large hail events to 2.5 inches. Isolated damaging wind gusts to 70 mph possible.",
+        "ATTN_WFOS": ["OUN", "TSA", "SGF"]
+      }
+    }
+  ]
+}

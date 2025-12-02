@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-98.12, 35.85], [-97.45, 36.25], [-96.25, 36.12], [-95.65, 35.52],
+          [-95.92, 34.85], [-97.08, 34.72], [-97.85, 35.25], [-98.12, 35.85]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505201845",
+        "EXPIRE": "202505202045",
+        "PROD": "MD",
+        "NUM": "0892",
+        "CONCERNING": "Severe potential...Watch likely",
+        "WATCH_PROB": 95,
+        "WATCH_TYPE": "TORNADO",
+        "DISCUSSION": "An intensifying supercell is tracking northeast across central Oklahoma. Strong mid-level rotation and favorable low-level wind profiles suggest tornado development is imminent. A tornado watch will likely be issued within the next 30 minutes.",
+        "ATTN_WFOS": ["OUN", "TSA", "FWD"],
+        "LAT_LON": "3585 9812 3625 9745 3612 9625 3552 9565 3485 9592 3472 9708 3525 9785"
+      }
+    }
+  ]
+}

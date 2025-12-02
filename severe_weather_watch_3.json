@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-91.58, 39.52], [-89.92, 40.08], [-87.85, 40.25], [-86.42, 39.72],
+          [-86.25, 38.42], [-88.08, 37.92], [-90.25, 38.15], [-91.38, 38.78],
+          [-91.58, 39.52]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505202300",
+        "EXPIRE": "202505210600",
+        "PROD": "WW",
+        "NUM": "0238",
+        "TYPE": "SVR",
+        "PDS": true,
+        "MAX_HAIL": "3.00",
+        "MAX_WIND": 90,
+        "STATES": ["MO", "IL", "IN"],
+        "WATCH_COUNTIES": 45,
+        "TORNADO_PROB": "MODERATE",
+        "HAIL_PROB": "HIGH",
+        "WIND_PROB": "HIGH",
+        "DISCUSSION": "THIS IS A PARTICULARLY DANGEROUS SITUATION. An intense bow echo with embedded supercells is tracking east across the St. Louis metro area. Destructive winds to 90 mph and giant hail to 3 inches are expected. Several tornadoes are also possible, some of which may be strong.",
+        "ATTN_WFOS": ["LSX", "ILX", "IND"]
+      }
+    }
+  ]
+}

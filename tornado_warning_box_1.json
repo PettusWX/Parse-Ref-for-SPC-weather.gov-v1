@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d9a2f7c4e8b1a3d6f9c2e5b8a1d4f7c0e3b6a9d.004.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-97.68, 35.38], [-97.48, 35.52], [-97.25, 35.48],
+          [-97.18, 35.28], [-97.38, 35.18], [-97.62, 35.25], [-97.68, 35.38]
+        ]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d9a2f7c4e8b1a3d6f9c2e5b8a1d4f7c0e3b6a9d.004.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.5d9a2f7c4e8b1a3d6f9c2e5b8a1d4f7c0e3b6a9d.004.1",
+        "areaDesc": "McClain, OK; Cleveland, OK",
+        "geocode": {
+          "SAME": ["040087", "040027"],
+          "UGC": ["OKC087", "OKC027"]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/OKC087",
+          "https://api.weather.gov/zones/county/OKC027"
+        ],
+        "references": [],
+        "sent": "2025-05-20T19:55:00+00:00",
+        "effective": "2025-05-20T19:55:00+00:00",
+        "onset": "2025-05-20T19:55:00+00:00",
+        "expires": "2025-05-20T20:30:00+00:00",
+        "ends": "2025-05-20T20:30:00+00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Norman OK",
+        "headline": "Tornado Warning issued May 20 at 2:55 PM CDT until May 20 at 3:30 PM CDT by NWS Norman OK",
+        "description": "At 255 PM CDT, a severe thunderstorm capable of producing a tornado\nwas located near Newcastle, or 8 miles southwest of Moore, moving\nnortheast at 40 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\n         shelter. Mobile homes will be damaged or destroyed. Damage\n         to roofs, windows, and vehicles will occur.\n\nThis dangerous storm will be near...\n  Newcastle around 300 PM CDT.\n  Moore around 310 PM CDT.\n  Norman around 315 PM CDT.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest floor of a sturdy building. Avoid windows. If you are outdoors, in a mobile home, or in a vehicle, move to the closest substantial shelter and protect yourself from flying debris.",
+        "response": "Shelter",
+        "parameters": {
+          "AWIPSidentifier": ["TOROUN"],
+          "WMOidentifier": ["WFUS54 KOUN 201955"],
+          "NWSheadline": ["TORNADO WARNING"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "VTEC": ["/O.NEW.KOUN.TO.W.0058.250520T1955Z-250520T2030Z/"],
+          "eventEndingTime": ["2025-05-20T20:30:00+00:00"],
+          "tornadoDetection": ["RADAR INDICATED"],
+          "maxHailSize": ["1.00"],
+          "motionVector": ["225DEG 35KT"]
+        }
+      }
+    }
+  ]
+}

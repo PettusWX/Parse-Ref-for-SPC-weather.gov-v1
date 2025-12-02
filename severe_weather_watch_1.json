@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-98.15, 35.92], [-97.32, 36.38], [-95.85, 36.12], [-96.05, 34.45],
+          [-97.58, 34.18], [-98.42, 35.12], [-98.15, 35.92]
+        ]]
+      },
+      "properties": {
+        "ISSUE": "202505201700",
+        "EXPIRE": "202505210000",
+        "PROD": "WW",
+        "NUM": "0234",
+        "TYPE": "SVR",
+        "MAX_HAIL": "2.00",
+        "MAX_WIND": 70,
+        "STATES": ["OK", "TX"],
+        "WATCH_COUNTIES": 24,
+        "TORNADO_PROB": "LOW",
+        "HAIL_PROB": "HIGH",
+        "WIND_PROB": "MODERATE",
+        "DISCUSSION": "Scattered severe thunderstorms are expected to develop this afternoon along and east of the dryline. Large hail to 2 inches and damaging winds to 70 mph will be the primary threats. An isolated tornado cannot be ruled out.",
+        "ATTN_WFOS": ["OUN", "TSA", "FWD"]
+      }
+    }
+  ]
+}

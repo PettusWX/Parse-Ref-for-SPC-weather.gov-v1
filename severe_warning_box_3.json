@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c8f1a7e9d2b4c6a8e1f3b5d7c9a2e4f6b8d0c1a.003.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-90.65, 38.78], [-90.35, 38.82], [-90.05, 38.72],
+          [-90.02, 38.52], [-90.32, 38.48], [-90.58, 38.58], [-90.65, 38.78]
+        ]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3c8f1a7e9d2b4c6a8e1f3b5d7c9a2e4f6b8d0c1a.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.3c8f1a7e9d2b4c6a8e1f3b5d7c9a2e4f6b8d0c1a.003.1",
+        "areaDesc": "St. Louis, MO; St. Louis City, MO; St. Charles, MO",
+        "geocode": {
+          "SAME": ["029189", "029510", "029183"],
+          "UGC": ["MOC189", "MOC510", "MOC183"]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC189",
+          "https://api.weather.gov/zones/county/MOC510",
+          "https://api.weather.gov/zones/county/MOC183"
+        ],
+        "references": [],
+        "sent": "2025-05-20T23:15:00+00:00",
+        "effective": "2025-05-20T23:15:00+00:00",
+        "onset": "2025-05-20T23:15:00+00:00",
+        "expires": "2025-05-21T00:00:00+00:00",
+        "ends": "2025-05-21T00:00:00+00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St. Louis MO",
+        "headline": "Severe Thunderstorm Warning issued May 20 at 6:15 PM CDT until May 20 at 7:00 PM CDT by NWS St. Louis MO",
+        "description": "At 615 PM CDT, a DESTRUCTIVE severe thunderstorm was located over\nMaryland Heights, moving east at 55 mph.\n\nTHIS IS A DESTRUCTIVE STORM FOR THE ST. LOUIS METRO AREA.\n\nHAZARD...Softball size hail and 80 mph wind gusts. This is a\n         DESTRUCTIVE storm.\n\nSOURCE...Radar confirmed softball sized hail.\n\nIMPACT...Flying debris will be deadly to people and animals. Expect\n         shattered windows and extensive damage to roofs, siding,\n         and vehicles.\n\nThis destructive storm will be near...\n  Clayton around 620 PM CDT.\n  Downtown St. Louis around 625 PM CDT.\n  East St. Louis around 630 PM CDT.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a building. This is an extremely dangerous storm. Mobile home residents should immediately seek shelter in a sturdy building.",
+        "response": "Shelter",
+        "parameters": {
+          "AWIPSidentifier": ["SVRLSX"],
+          "WMOidentifier": ["WUUS54 KLSX 202315"],
+          "NWSheadline": ["SEVERE THUNDERSTORM WARNING"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "VTEC": ["/O.NEW.KLSX.SV.W.0156.250520T2315Z-250521T0000Z/"],
+          "eventEndingTime": ["2025-05-21T00:00:00+00:00"],
+          "maxWindGust": ["80 MPH"],
+          "maxHailSize": ["4.00"],
+          "hailThreat": ["RADAR CONFIRMED"],
+          "windThreat": ["RADAR INDICATED"],
+          "tornadoDetection": ["POSSIBLE"],
+          "thunderstormDamageThreat": ["DESTRUCTIVE"]
+        }
+      }
+    }
+  ]
+}

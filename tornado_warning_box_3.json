@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@version": "1.1"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a4d7f0c3e6b9a2d5f8c1e4b7a0d3f6c9e2b5a8d.006.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-90.25, 35.15], [-90.02, 35.25], [-89.75, 35.18],
+          [-89.68, 34.95], [-89.92, 34.85], [-90.18, 34.95], [-90.25, 35.15]
+        ]]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1a4d7f0c3e6b9a2d5f8c1e4b7a0d3f6c9e2b5a8d.006.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.1a4d7f0c3e6b9a2d5f8c1e4b7a0d3f6c9e2b5a8d.006.1",
+        "areaDesc": "Crittenden, AR; DeSoto, MS; Shelby, TN",
+        "geocode": {
+          "SAME": ["005035", "028033", "047157"],
+          "UGC": ["ARC035", "MSC033", "TNC157"]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ARC035",
+          "https://api.weather.gov/zones/county/MSC033",
+          "https://api.weather.gov/zones/county/TNC157"
+        ],
+        "references": [],
+        "sent": "2025-05-21T02:15:00+00:00",
+        "effective": "2025-05-21T02:15:00+00:00",
+        "onset": "2025-05-21T02:15:00+00:00",
+        "expires": "2025-05-21T02:45:00+00:00",
+        "ends": "2025-05-21T02:45:00+00:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Tornado Warning issued May 21 at 9:15 PM CDT until May 21 at 9:45 PM CDT by NWS Memphis TN",
+        "description": "At 915 PM CDT, a confirmed tornado was located 5 miles southeast of\nWest Memphis, moving east-northeast at 50 mph.\n\nHAZARD...Damaging tornado.\n\nSOURCE...Trained weather spotters confirmed tornado.\n\nIMPACT...Flying debris will be dangerous to those caught without\n         shelter. Mobile homes will be damaged or destroyed. Damage\n         to roofs, windows, and vehicles will occur. Tree damage is\n         likely.\n\nThis dangerous storm will be near...\n  Southaven around 925 PM CDT.\n  Horn Lake around 930 PM CDT.\n  Olive Branch around 940 PM CDT.",
+        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest floor of a sturdy building. Avoid windows. Tornadoes are extremely difficult to see and confirm at night. Do not wait to see or hear the tornado. TAKE COVER NOW!",
+        "response": "Shelter",
+        "parameters": {
+          "AWIPSidentifier": ["TORMEG"],
+          "WMOidentifier": ["WFUS54 KMEG 210215"],
+          "NWSheadline": ["TORNADO WARNING"],
+          "BLOCKCHANNEL": ["EAS", "NWEM", "CMAS"],
+          "VTEC": ["/O.NEW.KMEG.TO.W.0018.250521T0215Z-250521T0245Z/"],
+          "eventEndingTime": ["2025-05-21T02:45:00+00:00"],
+          "tornadoDetection": ["OBSERVED"],
+          "tornadoDamageThreat": ["CONSIDERABLE"],
+          "maxHailSize": ["1.50"],
+          "motionVector": ["250DEG 43KT"]
+        }
+      }
+    }
+  ]
+}
